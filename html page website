@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prosto sait</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo.png" alt="" class="logo">
+
+        <div class="naviganion">
+            <a href="">главная</a>
+            <a href="">зачем я здесь</a>
+            <a href="https://www.youtube.com/">YouTube канал</a>
+
+        </div>
+
+    </div>
+
+    <div class="about">
+        <div class="about-text">
+            <p>Ну привет</p>
+            <h2>Готов найти себе приключений на свою жопу?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut dolorum reiciendis officia voluptas assumenda numquam dolorem consectetur? Fuga sed, dignissimos, atque aliquam inventore, laborum neque ab et cumque explicabo aut!</p>
+            <a href="https://www.google.ng">готов</a>
+        </div>
+
+
+        <div class="about-images">
+            <img src="img/adam-griffith-swkkiitjmyc-unsplash.jpg" alt="">
+            <img src="img/autri-taheri-ttgszselkoi-unsplash.jpg" alt="">
+            <img src="img/freestocks-t8sxccv0agw-unsplash.jpg" alt="">
+            <img src="img/jonas-vincent-xuliyvibyic-unsplash.jpg" alt="">
+
+        </div>
+    
+    </div>
+</body>
+</html>

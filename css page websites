@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(207, 201, 167);
+    background-image: url(img/noise.png);
+}
+
+.header{
+    padding-left: 350px;
+    padding-right: 350px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+}
+
+.naviganion{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-right: auto;
+}
+
+.naviganion a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: darkgray;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 250px;
+    padding-right: 250px;
+
+    align-items: center;
+
+    background-image: url(img/paw.png);
+    background-repeat: repeat-y;
+}
+
+.about-images{
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas: "img1 img2"
+                        "img3 img2"
+                        "img3 img4";
+}
+
+.about-images img:nth-child(1){
+    grid-area: img1;
+}
+
+.about-images img:nth-child(2){
+    grid-area: img2;
+}
+
+.about-images img:nth-child(3){
+    grid-area: img3;
+}
+
+.about-images img:nth-child(4){
+    grid-area: img4;
+}
+
+.about-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.about-text{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.about-text p:nth-child(1){
+    color: aqua;
+}
+
+.about-text p:nth-child(2){
+    color: rebeccapurple;
+}
+
+.about-text a{
+    background-color: steelblue;
+    background-image: url(img/noise.png);
+
+    padding: 5px 20px;
+    border-radius: 7px;
+
+    color: white;
+    text-decoration: none
+}
